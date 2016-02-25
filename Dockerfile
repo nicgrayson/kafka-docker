@@ -20,4 +20,4 @@ RUN chmod 755 $KAFKA_HOME/bin/*
 
 WORKDIR /opt/kafka_${SCALA_VERSION}-${KAFKA_VERSION}/bin
 
-CMD ['ls', '-lah']
+CMD ["ls", "-lah"]
