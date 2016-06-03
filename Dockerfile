@@ -4,7 +4,7 @@ MAINTAINER Nic Grayson <nicgrayson@gmail.com
 
 RUN apk add --update wget unzip
 
-ENV KAFKA_VERSION 0.9.0.0
+ENV KAFKA_VERSION 0.10.0.0
 ENV SCALA_VERSION 2.11
 
 RUN wget -q https://archive.apache.org/dist/kafka/$KAFKA_VERSION/kafka_$SCALA_VERSION-$KAFKA_VERSION.tgz \
